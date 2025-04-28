@@ -1,0 +1,40 @@
+﻿@page
+@model RecommendationSystem.Pages.Serials.IndexModel
+@{
+    ViewData["Title"] = "Рекомендации сериалов";
+}
+
+<div class="container">
+    <h2 class="mb-4">Рекомендуемые фильмы для вас</h2>
+
+    <div class="row">
+        @foreach (var serial in Model.Serials)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="@serial.ImageUrl" class="card-img-top" alt="@serial.Title">
+                    <div class="card-body">
+                        <h5 class="card-title">@serial.Title</h5>
+                        <div class="mb-2">
+                            @for (int i = 0; i < 5; i++)
+                            {
+                                <i class="fas fa-star @(i < serial.Rating ? "text-warning" : "text-secondary")"></i>
+                            }
+                            <span class="ms-2">@serial.Rating.ToString("0.0")</span>
+                        </div>
+                        <p class="card-text">@serial.Description</p>
+                        <div class="mb-2">
+                            @foreach (var genre in serial.Genres)
+                            {
+                                <span class="badge bg-primary me-1">@genre</span>
+                            }
+                        </div>
+                    </div>
+                    <div class="card-footer bg-transparent">
+                        <small class="text-muted">Вышло @serial.ReleaseDate.ToString("yyyy")</small>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

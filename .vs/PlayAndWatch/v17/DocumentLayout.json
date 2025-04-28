@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3C863028-E7D2-4492-B7D3-8EE951283C9D}|PlayAndWatch\\PlayAndWatch.csproj|c:\\users\\zisze\\documents\\github\\playandwatch\\playandwatch\\pages\\games\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C863028-E7D2-4492-B7D3-8EE951283C9D}|PlayAndWatch\\PlayAndWatch.csproj|solutionrelative:playandwatch\\pages\\games\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C863028-E7D2-4492-B7D3-8EE951283C9D}|PlayAndWatch\\PlayAndWatch.csproj|c:\\users\\zisze\\documents\\github\\playandwatch\\playandwatch\\pages\\games\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C863028-E7D2-4492-B7D3-8EE951283C9D}|PlayAndWatch\\PlayAndWatch.csproj|solutionrelative:playandwatch\\pages\\games\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C863028-E7D2-4492-B7D3-8EE951283C9D}|PlayAndWatch\\PlayAndWatch.csproj|c:\\users\\zisze\\documents\\github\\playandwatch\\playandwatch\\pages\\serials\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C863028-E7D2-4492-B7D3-8EE951283C9D}|PlayAndWatch\\PlayAndWatch.csproj|solutionrelative:playandwatch\\pages\\serials\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C863028-E7D2-4492-B7D3-8EE951283C9D}|PlayAndWatch\\PlayAndWatch.csproj|c:\\users\\zisze\\documents\\github\\playandwatch\\playandwatch\\pages\\serials\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C863028-E7D2-4492-B7D3-8EE951283C9D}|PlayAndWatch\\PlayAndWatch.csproj|solutionrelative:playandwatch\\pages\\serials\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3C863028-E7D2-4492-B7D3-8EE951283C9D}|PlayAndWatch\\PlayAndWatch.csproj|c:\\users\\zisze\\documents\\github\\playandwatch\\playandwatch\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3C863028-E7D2-4492-B7D3-8EE951283C9D}|PlayAndWatch\\PlayAndWatch.csproj|solutionrelative:playandwatch\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -11,16 +27,24 @@
       "RelativeMoniker": "D:0:0:{3C863028-E7D2-4492-B7D3-8EE951283C9D}|PlayAndWatch\\PlayAndWatch.csproj|solutionrelative:playandwatch\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3C863028-E7D2-4492-B7D3-8EE951283C9D}|PlayAndWatch\\PlayAndWatch.csproj|c:\\users\\zisze\\documents\\github\\playandwatch\\playandwatch\\models\\recommendation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C863028-E7D2-4492-B7D3-8EE951283C9D}|PlayAndWatch\\PlayAndWatch.csproj|solutionrelative:playandwatch\\models\\recommendation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C863028-E7D2-4492-B7D3-8EE951283C9D}|PlayAndWatch\\PlayAndWatch.csproj|c:\\users\\zisze\\documents\\github\\playandwatch\\playandwatch\\pages\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C863028-E7D2-4492-B7D3-8EE951283C9D}|PlayAndWatch\\PlayAndWatch.csproj|solutionrelative:playandwatch\\pages\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C863028-E7D2-4492-B7D3-8EE951283C9D}|PlayAndWatch\\PlayAndWatch.csproj|c:\\users\\zisze\\documents\\github\\playandwatch\\playandwatch\\pages\\books\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C863028-E7D2-4492-B7D3-8EE951283C9D}|PlayAndWatch\\PlayAndWatch.csproj|solutionrelative:playandwatch\\pages\\books\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3C863028-E7D2-4492-B7D3-8EE951283C9D}|PlayAndWatch\\PlayAndWatch.csproj|c:\\users\\zisze\\documents\\github\\playandwatch\\playandwatch\\pages\\movies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3C863028-E7D2-4492-B7D3-8EE951283C9D}|PlayAndWatch\\PlayAndWatch.csproj|solutionrelative:playandwatch\\pages\\movies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3C863028-E7D2-4492-B7D3-8EE951283C9D}|PlayAndWatch\\PlayAndWatch.csproj|c:\\users\\zisze\\documents\\github\\playandwatch\\playandwatch\\pages\\movies\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C863028-E7D2-4492-B7D3-8EE951283C9D}|PlayAndWatch\\PlayAndWatch.csproj|solutionrelative:playandwatch\\pages\\movies\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C863028-E7D2-4492-B7D3-8EE951283C9D}|PlayAndWatch\\PlayAndWatch.csproj|c:\\users\\zisze\\documents\\github\\playandwatch\\playandwatch\\models\\recommendation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C863028-E7D2-4492-B7D3-8EE951283C9D}|PlayAndWatch\\PlayAndWatch.csproj|solutionrelative:playandwatch\\models\\recommendation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,66 +54,147 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Pages\\Games\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "PlayAndWatch\\Pages\\Games\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Pages\\Games\\Index.cshtml.cs",
+              "RelativeToolTip": "PlayAndWatch\\Pages\\Games\\Index.cshtml.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACIAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T20:46:52.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Pages\\Games\\Index.cshtml",
+              "RelativeDocumentMoniker": "PlayAndWatch\\Pages\\Games\\Index.cshtml",
+              "ToolTip": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Pages\\Games\\Index.cshtml",
+              "RelativeToolTip": "PlayAndWatch\\Pages\\Games\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-28T20:43:39.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Pages\\Books\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "PlayAndWatch\\Pages\\Books\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Pages\\Books\\Index.cshtml.cs",
+              "RelativeToolTip": "PlayAndWatch\\Pages\\Books\\Index.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T20:31:07.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Pages\\Books\\Index.cshtml",
+              "RelativeDocumentMoniker": "PlayAndWatch\\Pages\\Books\\Index.cshtml",
+              "ToolTip": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Pages\\Books\\Index.cshtml",
+              "RelativeToolTip": "PlayAndWatch\\Pages\\Books\\Index.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACcAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-28T20:28:42.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Pages\\Serials\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "PlayAndWatch\\Pages\\Serials\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Pages\\Serials\\Index.cshtml.cs",
+              "RelativeToolTip": "PlayAndWatch\\Pages\\Serials\\Index.cshtml.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAmwCcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T19:58:21.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Pages\\Serials\\Index.cshtml",
+              "RelativeDocumentMoniker": "PlayAndWatch\\Pages\\Serials\\Index.cshtml",
+              "ToolTip": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Pages\\Serials\\Index.cshtml",
+              "RelativeToolTip": "PlayAndWatch\\Pages\\Serials\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-28T19:58:05.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "PlayAndWatch\\Pages\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Pages\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "PlayAndWatch\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAtAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-28T19:23:17.468Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Pages\\Movies\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "PlayAndWatch\\Pages\\Movies\\Index.cshtml.cs",
               "ToolTip": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Pages\\Movies\\Index.cshtml.cs",
               "RelativeToolTip": "PlayAndWatch\\Pages\\Movies\\Index.cshtml.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAuwCcAAAABAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAmwCcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T19:22:37.479Z"
+              "WhenOpened": "2025-04-28T19:22:37.479Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Pages\\Movies\\Index.cshtml",
               "RelativeDocumentMoniker": "PlayAndWatch\\Pages\\Movies\\Index.cshtml",
               "ToolTip": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Pages\\Movies\\Index.cshtml",
               "RelativeToolTip": "PlayAndWatch\\Pages\\Movies\\Index.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACcAAAAGAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-28T19:21:55.395Z"
+              "WhenOpened": "2025-04-28T19:21:55.395Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Recommendation.cs",
               "DocumentMoniker": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Models\\Recommendation.cs",
               "RelativeDocumentMoniker": "PlayAndWatch\\Models\\Recommendation.cs",
               "ToolTip": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Models\\Recommendation.cs",
               "RelativeToolTip": "PlayAndWatch\\Models\\Recommendation.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T19:19:32.267Z"
+              "WhenOpened": "2025-04-28T19:19:32.267Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "PlayAndWatch\\Pages\\Index.cshtml",
               "ToolTip": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Pages\\Index.cshtml",
               "RelativeToolTip": "PlayAndWatch\\Pages\\Index.cshtml",
-              "ViewState": "AQIAACgAAAAAAAAAAAAYwC8AAABBAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-28T19:07:42.147Z",
               "EditorCaption": ""
