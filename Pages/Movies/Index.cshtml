@@ -1,0 +1,40 @@
+﻿@page
+@model RecommendationSystem.Pages.Movies.IndexModel
+@{
+    ViewData["Title"] = "Рекомендации фильмов";
+}
+
+<div class="container">
+    <h2 class="mb-4">Рекомендуемые фильмы для вас</h2>
+
+    <div class="row">
+        @foreach (var movie in Model.Movies)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="@movie.ImageUrl" class="card-img-top" alt="@movie.Title">
+                    <div class="card-body">
+                        <h5 class="card-title">@movie.Title</h5>
+                        <div class="mb-2">
+                            @for (int i = 0; i < 5; i++)
+                            {
+                                <i class="fas fa-star @(i < movie.Rating ? "text-warning" : "text-secondary")"></i>
+                            }
+                            <span class="ms-2">@movie.Rating.ToString("0.0")</span>
+                        </div>
+                        <p class="card-text">@movie.Description</p>
+                        <div class="mb-2">
+                            @foreach (var genre in movie.Genres)
+                            {
+                                <span class="badge bg-primary me-1">@genre</span>
+                            }
+                        </div>
+                    </div>
+                    <div class="card-footer bg-transparent">
+                        <small class="text-muted">Вышло @movie.ReleaseDate.ToString("yyyy")</small>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

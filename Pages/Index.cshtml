@@ -1,0 +1,73 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Рекомендательная система";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Добро пожаловать в систему рекомендаций</h1>
+    <p>Откройте для себя новые фильмы, сериалы, книги и игры, которые вам понравятся!</p>
+</div>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-body text-center">
+                    <a asp-page="/Movies/Index">
+                        <i class="fas fa-film fa-3x mb-3"></i>
+                        <h5 class="card-title">Фильмы</h5>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-body text-center">
+                    <a asp-page="/TVShows/Index">
+                        <i class="fas fa-tv fa-3x mb-3"></i>
+                        <h5 class="card-title">Сериалы</h5>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-body text-center">
+                    <a asp-page="/Books/Index">
+                        <i class="fas fa-book fa-3x mb-3"></i>
+                        <h5 class="card-title">Книги</h5>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-body text-center">
+                    <a asp-page="/Games/Index">
+                        <i class="fas fa-gamepad fa-3x mb-3"></i>
+                        <h5 class="card-title">Игры</h5>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Styles {
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <style>
+        .card {
+            transition: transform 0.3s;
+            height: 100%;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+        }
+        .card a {
+            text-decoration: none;
+            color: inherit;
+        }
+    </style>
+}
