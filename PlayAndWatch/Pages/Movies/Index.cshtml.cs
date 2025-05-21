@@ -1,40 +1,48 @@
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using RecommendationSystem.Models;
-using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore;
+using PlayAndWatch.Data;
 
 namespace RecommendationSystem.Pages.Movies
 {
     public class IndexModel : PageModel
     {
-        public List<Recommendation> Movies { get; set; }
+        private readonly ApplicationDbContext _context;
 
-        public void OnGet()
+        public IndexModel(ApplicationDbContext context)
         {
-            // Здесь будет логика получения рекомендаций из базы данных или API
-            // Пока используем тестовые данные
-            Movies = new List<Recommendation>
-            {
-                new Recommendation
-                {
-                    Id = 1,
-                    Title = "Начало",
-                    Description = "Криминальный триллер о проникновении в сны.",
-                    ImageUrl = "https://example.com/inception.jpg",
-                    Rating = 4.5m,
-                    Genres = new[] { "Фантастика", "Триллер", "Драма" },
-                    ReleaseDate = new DateTime(2010, 7, 16)
-                },
-                new Recommendation
-                {
-                    Id = 2,
-                    Title = "Побег из Шоушенка",
-                    Description = "Драма о надежде и свободе.",
-                    ImageUrl = "https://example.com/shawshank.jpg",
-                    Rating = 4.8m,
-                    Genres = new[] { "Драма" },
-                    ReleaseDate = new DateTime(1994, 9, 23)
-                }
-            };
+            _context = context;
         }
+
+        public List<ViewModel> Movies { get; set; } = new();
+
+        public async Task OnGetAsync()
+        {
+            Movies = await _context.Contents
+                .Where(c => c.content_type == "movie")
+                .Include(c => c.Content_Genres)
+                    .ThenInclude(cg => cg.Genre)
+                .Include(c => c.Ratings)
+                .Select(c => new ViewModel
+                {
+                    Id = c.Id,
+                    Title = c.title,
+                    Description = c.description,
+                    Rating = c.Ratings.Any() ? c.Ratings.Average(r => r.rating_value) : 0,
+                    ReleaseDate = c.release_date,
+                    Genres = c.Content_Genres.Select(cg => cg.Genre.name).ToList()
+                })
+                .AsNoTracking()
+                .ToListAsync();
+        }
+    }
+
+    public class ViewModel
+    {
+        public int Id { get; set; }
+        public string Title { get; set; }
+        public string Description { get; set; }
+        public double Rating { get; set; }
+        public DateTime ReleaseDate { get; set; }
+        public List<string> Genres { get; set; } = new();
     }
 }
