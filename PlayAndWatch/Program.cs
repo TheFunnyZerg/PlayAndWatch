@@ -1,4 +1,11 @@
+using Microsoft.EntityFrameworkCore;
+using PlayAndWatch.Data;
+
 var builder = WebApplication.CreateBuilder(args);
+
+// Добавляем DbContext с PostgreSQL
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("PostgreSQLConnection")));
 
 // Add services to the container.
 builder.Services.AddRazorPages();
