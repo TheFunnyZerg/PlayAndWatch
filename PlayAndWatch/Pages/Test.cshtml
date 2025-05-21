@@ -1,0 +1,14 @@
+﻿@page
+@model PlayAndWatch.Pages.TestModel
+@{
+    ViewData["Title"] = "Тест БД";
+}
+
+<h3>Содержимое базы данных:</h3>
+
+<ul>
+    @foreach (var content in Model.Contents)
+    {
+        <li>@content.title (@content.content_type)</li>
+    }
+</ul>
