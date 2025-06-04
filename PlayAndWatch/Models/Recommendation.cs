@@ -7,7 +7,7 @@
         public string Description { get; set; }
         public string ImageUrl { get; set; }
         public decimal Rating { get; set; }
-        public string Type { get; set; } // "Movie", "Serials", "Book", "Game"
+        public string Type { get; set; }
         public string[] Genres { get; set; }
         public DateTime ReleaseDate { get; set; }
     }
