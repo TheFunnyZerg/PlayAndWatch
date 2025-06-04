@@ -1,0 +1,76 @@
+﻿@page
+@model PlayAndWatch.Pages.Auth.LoginModel
+@{
+    ViewData["Title"] = "Вход в систему";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-4">
+            <div class="card shadow">
+                <div class="card-body">
+                    <h2 class="card-title text-center mb-4">@ViewData["Title"]</h2>
+
+                    @if (ViewBag.Error != null)
+                    {
+                        <div class="alert alert-danger mb-3">@ViewBag.Error</div>
+                    }
+
+                    <form method="post" action="/Auth/Login">
+                        <div class="mb-3">
+                            <label for="username" class="form-label">Логин</label>
+                            <input type="text" class="form-control" id="username" name="username" required
+                                   placeholder="Ваш логин">
+                        </div>
+
+                        <div class="mb-4">
+                            <label for="password" class="form-label">Пароль</label>
+                            <input type="password" class="form-control" id="password" name="password" required
+                                   placeholder="Ваш пароль">
+                        </div>
+
+                        <button type="submit" class="btn btn-primary w-100 py-2 mb-3">Войти</button>
+
+                        <div class="form-check mb-3">
+                            <input class="form-check-input" type="checkbox" id="rememberMe" name="rememberMe">
+                            <label class="form-check-label" for="rememberMe">Запомнить меня</label>
+                        </div>
+                    </form>
+
+                    <div class="text-center mt-3">
+                        <a href="/Auth/Register" class="text-decoration-none">Создать новый аккаунт</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Styles {
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }   
+
+        .card {
+            border-radius: 10px;
+            border: none;
+        }
+
+        .form-control {
+            border-radius: 5px;
+            padding: 10px;
+        }
+        
+        .btn-primary {
+            border-radius: 5px;
+            font-weight: 500;
+        }
+
+        .form-check-input {
+            margin-top: 0.2em;
+        }
+    </style>
+}
+

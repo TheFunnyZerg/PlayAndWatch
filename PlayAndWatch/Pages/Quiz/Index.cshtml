@@ -1,0 +1,216 @@
+﻿@page
+@model PlayAndWatch.Pages.Quiz.IndexModel
+@{
+    ViewData["Title"] = "Квиз: Интерстеллар";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <style>
+        .quiz-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        .quiz-header {
+            text-align: center;
+            margin-bottom: 2rem;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 1rem;
+        }
+        .quiz-progress {
+            height: 10px;
+            margin-bottom: 2rem;
+            border-radius: 5px;
+        }
+        .question-card {
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            border-left: 4px solid #007bff;
+        }
+        .option-item {
+            display: block;
+            padding: 1rem;
+            margin: 0.5rem 0;
+            background-color: white;
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .option-item:hover {
+            background-color: #f1f1f1;
+            border-color: #adb5bd;
+        }
+        .option-item.selected {
+            background-color: #e7f5ff;
+            border-color: #007bff;
+        }
+        .quiz-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 2rem;
+        }
+        .film-poster {
+            width: 150px;
+            border-radius: 5px;
+            margin: 0 auto 1rem;
+            display: block;
+        }
+        .reward-badge {
+            font-size: 1rem;
+            padding: 0.5em 1em;
+        }
+    </style>
+}
+
+<div class="container py-5">
+    <div class="quiz-container shadow">
+        <div class="quiz-header">
+            <img src="https://store.donanimhaber.com/c9/2e/88/c92e887155d20aa14755dda51234e456.jpg"
+                 alt="Интерстеллар" class="film-poster">
+            <h3>Квиз по фильму "Интерстеллар"</h3>
+            <p>Пройдите квиз, чтобы подтвердить просмотр и получить награду</p>
+            <span class="badge bg-warning text-dark reward-badge">
+                <i class="fas fa-coins"></i> Награда: 350 очков
+            </span>
+        </div>
+
+        <div class="progress quiz-progress">
+            <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">1/4</div>
+        </div>
+
+        <div class="question-card">
+            <h5 class="mb-3">1. Как зовут главного героя фильма?</h5>
+            
+            <label class="option-item">
+                <input type="radio" name="question1" class="me-2">
+                Джозеф Купер
+            </label>
+            
+            <label class="option-item selected">
+                <input type="radio" name="question1" class="me-2" checked>
+                Джон Купер
+            </label>
+            
+            <label class="option-item">
+                <input type="radio" name="question1" class="me-2">
+                Джеймс Купер
+            </label>
+            
+            <label class="option-item">
+                <input type="radio" name="question1" class="me-2">
+                Джексон Купер
+            </label>
+        </div>
+
+        <div class="question-card">
+            <h5 class="mb-3">2. Какую профессию имел Купер до того как стал астронавтом?</h5>
+            
+            <label class="option-item">
+                <input type="radio" name="question2" class="me-2">
+                Ученый-физик
+            </label>
+            
+            <label class="option-item">
+                <input type="radio" name="question2" class="me-2">
+                Военный летчик
+            </label>
+            
+            <label class="option-item">
+                <input type="radio" name="question2" class="me-2">
+                Инженер NASA
+            </label>
+            
+            <label class="option-item">
+                <input type="radio" name="question2" class="me-2">
+                Фермер и пилот
+            </label>
+        </div>
+
+        <div class="question-card">
+            <h5 class="mb-3">3. Как называется планета, где 1 час равен 7 годам на Земле?</h5>
+            
+            <label class="option-item">
+                <input type="radio" name="question3" class="me-2">
+                Эдмундс
+            </label>
+            
+            <label class="option-item">
+                <input type="radio" name="question3" class="me-2">
+                Манн
+            </label>
+            
+            <label class="option-item">
+                <input type="radio" name="question3" class="me-2">
+                Миллер
+            </label>
+            
+            <label class="option-item">
+                <input type="radio" name="question3" class="me-2">
+                Гаргантюа
+            </label>
+        </div>
+
+        <div class="question-card">
+            <h5 class="mb-3">4. Кто оказался "они", создателями тессеракта?</h5>
+            
+            <label class="option-item">
+                <input type="radio" name="question4" class="me-2">
+                Пришельцы из другой галактики
+            </label>
+            
+            <label class="option-item">
+                <input type="radio" name="question4" class="me-2">
+                Будущие версии человечества
+            </label>
+            
+            <label class="option-item">
+                <input type="radio" name="question4" class="me-2">
+                Искусственный интеллект
+            </label>
+            
+            <label class="option-item">
+                <input type="radio" name="question4" class="me-2">
+                Ученые из параллельной вселенной
+            </label>
+        </div>
+
+        <div class="quiz-footer">
+            <button class="btn btn-outline-secondary">
+                <i class="fas fa-arrow-left me-2"></i>Назад
+            </button>
+            
+            <div>
+                <span class="text-muted me-3">2 из 4 вопросов</span>
+                <button class="btn btn-primary">
+                    Далее <i class="fas fa-arrow-right ms-2"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // Обработка выбора вариантов ответа
+        document.querySelectorAll('.option-item').forEach(item => {
+            item.addEventListener('click', function() {
+                // Удаляем класс selected у всех вариантов в этом вопросе
+                this.closest('.question-card').querySelectorAll('.option-item').forEach(opt => {
+                    opt.classList.remove('selected');
+                });
+                // Добавляем класс selected к выбранному варианту
+                this.classList.add('selected');
+                // Помечаем радио-кнопку как выбранную
+                this.querySelector('input').checked = true;
+            });
+        });
+    </script>
+}

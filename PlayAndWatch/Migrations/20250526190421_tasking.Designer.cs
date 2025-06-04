@@ -12,8 +12,8 @@ using PlayAndWatch.Data;
 namespace PlayAndWatch.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250521130814_Initial")]
-    partial class Initial
+    [Migration("20250526190421_tasking")]
+    partial class tasking
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -237,6 +237,9 @@ namespace PlayAndWatch.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<string>("image_url")
+                        .HasColumnType("text");
+
                     b.Property<DateTime>("release_date")
                         .HasColumnType("timestamp with time zone");
 
@@ -316,6 +319,35 @@ namespace PlayAndWatch.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("Ratings", (string)null);
+                });
+
+            modelBuilder.Entity("PlayAndWatch.DBModels.Task", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("character varying(200)");
+
+                    b.Property<bool>("IsCompleted")
+                        .HasColumnType("boolean");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("integer");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Tasks", (string)null);
                 });
 
             modelBuilder.Entity("PlayAndWatch.DBModels.User", b =>
@@ -438,6 +470,17 @@ namespace PlayAndWatch.Migrations
                     b.Navigation("User");
                 });
 
+            modelBuilder.Entity("PlayAndWatch.DBModels.Task", b =>
+                {
+                    b.HasOne("PlayAndWatch.DBModels.User", "User")
+                        .WithMany("Tasks")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("PlayAndWatch.DBModels.Content", b =>
                 {
                     b.Navigation("Content_Genres");
@@ -453,6 +496,8 @@ namespace PlayAndWatch.Migrations
             modelBuilder.Entity("PlayAndWatch.DBModels.User", b =>
                 {
                     b.Navigation("Ratings");
+
+                    b.Navigation("Tasks");
                 });
 #pragma warning restore 612, 618
         }

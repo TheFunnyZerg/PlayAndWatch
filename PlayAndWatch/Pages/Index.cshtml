@@ -1,11 +1,11 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Рекомендательная система";
+    ViewData["Title"] = "PlayAndWatch";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Добро пожаловать в систему рекомендаций</h1>
+    <h1 class="display-4">Добро пожаловать на PlayAndWatch</h1>
     <p>Откройте для себя новые фильмы, сериалы, книги и игры, которые вам понравятся!</p>
 </div>
 
@@ -52,6 +52,55 @@
             </div>
         </div>
     </div>
+</div>
+
+<div style="margin-top: 70px;" class="row">
+    @foreach (var movie in Model.Movies)
+    {
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">@movie.Title</h5>
+                    @if (@movie.Image_url != null)
+                    {
+                        <img src="@movie.Image_url" class="h-50" />
+                    }
+                    <div class="mb-2">
+                        @{
+                            var fullStars = (int)movie.Rating;
+                            var hasHalfStar = movie.Rating - fullStars >= 0.5;
+                        }
+                        @for (int i = 0; i < 5; i++)
+                        {
+                            if (i < fullStars)
+                            {
+                                <i class="fas fa-star text-warning"></i>
+                            }
+                            else if (i == fullStars && hasHalfStar)
+                            {
+                                <i class="fas fa-star-half-alt text-warning"></i>
+                            }
+                            else
+                            {
+                                <i class="far fa-star text-secondary"></i>
+                            }
+                        }
+                        <span class="ms-2">@movie.Rating.ToString("0.0")</span>
+                    </div>
+                    <p class="card-text flex-grow-1">@movie.Description</p>
+                    <div class="mb-2">
+                        @foreach (var genre in movie.Genres.Take(3))
+                        {
+                            <span class="badge bg-primary me-1 mb-1">@genre</span>
+                        }
+                    </div>
+                </div>
+                <div class="card-footer bg-transparent">
+                    <small class="text-muted">Вышло @movie.ReleaseDate.ToString("yyyy")</small>
+                </div>
+            </div>
+        </div>
+    }
 </div>
 
 @section Styles {

@@ -27,6 +27,7 @@ namespace RecommendationSystem.Pages.Movies
                     Id = c.Id,
                     Title = c.title,
                     Description = c.description,
+                    Image_url = c.image_url,
                     Rating = c.Ratings.Any() ? c.Ratings.Average(r => r.rating_value) : 0,
                     ReleaseDate = c.release_date,
                     Genres = c.Content_Genres.Select(cg => cg.Genre.name).ToList()
@@ -41,6 +42,7 @@ namespace RecommendationSystem.Pages.Movies
         public int Id { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }
+        public string? Image_url { get; set; }
         public double Rating { get; set; }
         public DateTime ReleaseDate { get; set; }
         public List<string> Genres { get; set; } = new();

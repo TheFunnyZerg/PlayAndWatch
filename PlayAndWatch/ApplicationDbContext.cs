@@ -1,6 +1,7 @@
-﻿using PlayAndWatch.DBModels;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Task = PlayAndWatch.Models.Task;
+using PlayAndWatch.Models;
 
 namespace PlayAndWatch.Data
 {
@@ -14,6 +15,7 @@ namespace PlayAndWatch.Data
         public DbSet<Genre> Genres { get; set; }
         public DbSet<Content_Genres> Content_Genres { get; set; }
         public DbSet<Rating> Ratings { get; set; }
+        public DbSet<Task> Tasks { get; set; }
         
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -25,6 +27,7 @@ namespace PlayAndWatch.Data
             modelBuilder.Entity<Genre>().ToTable("Genres");
             modelBuilder.Entity<Rating>().ToTable("Ratings");
             modelBuilder.Entity<Content_Genres>().ToTable("Content_genres"); // Обратите внимание на нижнее подчёркивание и регистр
+            modelBuilder.Entity<Task>().ToTable("Tasks");
 
             // Настройка первичных ключей для всех сущностей
             modelBuilder.Entity<User>().HasKey(u => u.Id);
@@ -32,6 +35,7 @@ namespace PlayAndWatch.Data
             modelBuilder.Entity<Genre>().HasKey(g => g.Id);
             modelBuilder.Entity<Rating>().HasKey(r => r.Id);
             modelBuilder.Entity<Content_Genres>().HasKey(cg => cg.Id);
+            modelBuilder.Entity<Task>().HasKey(t => t.Id);
 
             // Настройка связей для Content_Genres (many-to-many)
             modelBuilder.Entity<Content_Genres>()
@@ -59,6 +63,11 @@ namespace PlayAndWatch.Data
                 .WithMany(c => c.Ratings)
                 .HasForeignKey(r => r.ContentId)
                 .IsRequired();
+
+            modelBuilder.Entity<Task>()
+                .HasOne(t => t.User)
+                .WithMany(u => u.Tasks)
+                .HasForeignKey(t => t.UserId);
         }
     }
 }
