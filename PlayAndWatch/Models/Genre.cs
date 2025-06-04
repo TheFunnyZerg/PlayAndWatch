@@ -9,7 +9,6 @@ namespace PlayAndWatch.Models
         [Required]
         public string name { get; set; }
 
-        // Навигационное свойство
         public ICollection<Content_Genres> Content_Genres { get; set; }
     }
 }
