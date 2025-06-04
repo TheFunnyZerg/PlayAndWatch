@@ -59,6 +59,7 @@ namespace PlayAndWatch.Migrations
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     title = table.Column<string>(type: "text", nullable: false),
                     description = table.Column<string>(type: "text", nullable: false),
+                    image_url = table.Column<string>(type: "text", nullable: true),
                     content_type = table.Column<string>(type: "text", nullable: false),
                     release_date = table.Column<DateTime>(type: "timestamp with time zone", nullable: false)
                 },

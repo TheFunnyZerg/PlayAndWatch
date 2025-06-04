@@ -1,8 +1,8 @@
-﻿namespace PlayAndWatch.DBModels
+﻿namespace PlayAndWatch.Models
 {
     public class Content_Genres
     {
-        public int Id {  get; set; }
+        public int Id { get; set; }
         public int ContentId { get; set; }
         public Content? Content { get; set; }
 

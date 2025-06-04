@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using PlayAndWatch.Data;
-using PlayAndWatch.DBModels;
+using PlayAndWatch.Models;
 
 namespace PlayAndWatch.Pages
 {

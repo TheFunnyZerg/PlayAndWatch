@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace PlayAndWatch.DBModels
+namespace PlayAndWatch.Models
 {
     public class Rating
     {
@@ -12,6 +12,7 @@ namespace PlayAndWatch.DBModels
         public int ContentId { get; set; }
         public Content? Content { get; set; }
 
+        [Required]
         public int rating_value { get; set; }
 
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;

@@ -5,7 +5,7 @@
 }
 
 <div class="container">
-    <h2 class="mb-4">Рекомендуемые фильмы для вас</h2>
+    <h2 class="mb-4">Фильмы для вас</h2>
 
     @if (!Model.Movies.Any())
     {
@@ -20,6 +20,10 @@
                     <div class="card h-100">
                         <div class="card-body d-flex flex-column">
                             <h5 class="card-title">@movie.Title</h5>
+                            @if (@movie.Image_url != null)
+                            {
+                                <img src="@movie.Image_url" class="h-50"/>
+                            }
                             <div class="mb-2">
                                 @{
                                     var fullStars = (int)movie.Rating;
