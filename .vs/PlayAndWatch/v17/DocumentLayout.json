@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3C863028-E7D2-4492-B7D3-8EE951283C9D}|PlayAndWatch\\PlayAndWatch.csproj|c:\\users\\zisze\\documents\\github\\playandwatch\\playandwatch\\contollers\\taskcontoller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C863028-E7D2-4492-B7D3-8EE951283C9D}|PlayAndWatch\\PlayAndWatch.csproj|solutionrelative:playandwatch\\contollers\\taskcontoller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C863028-E7D2-4492-B7D3-8EE951283C9D}|PlayAndWatch\\PlayAndWatch.csproj|c:\\users\\zisze\\documents\\github\\playandwatch\\playandwatch\\contollers\\recommendationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C863028-E7D2-4492-B7D3-8EE951283C9D}|PlayAndWatch\\PlayAndWatch.csproj|solutionrelative:playandwatch\\contollers\\recommendationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C863028-E7D2-4492-B7D3-8EE951283C9D}|PlayAndWatch\\PlayAndWatch.csproj|c:\\users\\zisze\\documents\\github\\playandwatch\\playandwatch\\services\\taskdistributionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C863028-E7D2-4492-B7D3-8EE951283C9D}|PlayAndWatch\\PlayAndWatch.csproj|solutionrelative:playandwatch\\services\\taskdistributionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C863028-E7D2-4492-B7D3-8EE951283C9D}|PlayAndWatch\\PlayAndWatch.csproj|c:\\users\\zisze\\documents\\github\\playandwatch\\playandwatch\\services\\recommendationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C863028-E7D2-4492-B7D3-8EE951283C9D}|PlayAndWatch\\PlayAndWatch.csproj|solutionrelative:playandwatch\\services\\recommendationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3C863028-E7D2-4492-B7D3-8EE951283C9D}|PlayAndWatch\\PlayAndWatch.csproj|c:\\users\\zisze\\documents\\github\\playandwatch\\playandwatch\\models\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C863028-E7D2-4492-B7D3-8EE951283C9D}|PlayAndWatch\\PlayAndWatch.csproj|solutionrelative:playandwatch\\models\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -118,11 +134,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RecommendationService.cs",
+              "DocumentMoniker": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Services\\RecommendationService.cs",
+              "RelativeDocumentMoniker": "PlayAndWatch\\Services\\RecommendationService.cs",
+              "ToolTip": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Services\\RecommendationService.cs",
+              "RelativeToolTip": "PlayAndWatch\\Services\\RecommendationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T19:51:29.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "RecommendationsController.cs",
+              "DocumentMoniker": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Contollers\\RecommendationsController.cs",
+              "RelativeDocumentMoniker": "PlayAndWatch\\Contollers\\RecommendationsController.cs",
+              "ToolTip": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Contollers\\RecommendationsController.cs",
+              "RelativeToolTip": "PlayAndWatch\\Contollers\\RecommendationsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T19:50:37.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TaskDistributionService.cs",
+              "DocumentMoniker": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Services\\TaskDistributionService.cs",
+              "RelativeDocumentMoniker": "PlayAndWatch\\Services\\TaskDistributionService.cs",
+              "ToolTip": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Services\\TaskDistributionService.cs",
+              "RelativeToolTip": "PlayAndWatch\\Services\\TaskDistributionService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T19:48:35.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TaskContoller.cs",
+              "DocumentMoniker": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Contollers\\TaskContoller.cs",
+              "RelativeDocumentMoniker": "PlayAndWatch\\Contollers\\TaskContoller.cs",
+              "ToolTip": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Contollers\\TaskContoller.cs",
+              "RelativeToolTip": "PlayAndWatch\\Contollers\\TaskContoller.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAMoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T19:45:33.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Genre.cs",
               "DocumentMoniker": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Models\\Genre.cs",
               "RelativeDocumentMoniker": "PlayAndWatch\\Models\\Genre.cs",
@@ -134,7 +202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Rating.cs",
               "DocumentMoniker": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Models\\Rating.cs",
               "RelativeDocumentMoniker": "PlayAndWatch\\Models\\Rating.cs",
@@ -147,7 +215,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Content.cs",
               "DocumentMoniker": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Models\\Content.cs",
               "RelativeDocumentMoniker": "PlayAndWatch\\Models\\Content.cs",
@@ -159,7 +227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Content_Genres.cs",
               "DocumentMoniker": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Models\\Content_Genres.cs",
               "RelativeDocumentMoniker": "PlayAndWatch\\Models\\Content_Genres.cs",
@@ -171,7 +239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Pages\\Movies\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "PlayAndWatch\\Pages\\Movies\\Index.cshtml.cs",
@@ -183,7 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "PlayAndWatch\\Pages\\Shared\\_Layout.cshtml",
@@ -195,7 +263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Pages\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "PlayAndWatch\\Pages\\Index.cshtml.cs",
@@ -207,7 +275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Pages\\Auth\\Login.cshtml",
               "RelativeDocumentMoniker": "PlayAndWatch\\Pages\\Auth\\Login.cshtml",
@@ -219,7 +287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Models\\User.cs",
               "RelativeDocumentMoniker": "PlayAndWatch\\Models\\User.cs",
@@ -231,7 +299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Pages\\Tasks\\Index.cshtml",
               "RelativeDocumentMoniker": "PlayAndWatch\\Pages\\Tasks\\Index.cshtml",
@@ -243,7 +311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Pages\\Quiz\\Index.cshtml",
               "RelativeDocumentMoniker": "PlayAndWatch\\Pages\\Quiz\\Index.cshtml",
@@ -255,7 +323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Pages\\Games\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "PlayAndWatch\\Pages\\Games\\Index.cshtml.cs",
@@ -267,7 +335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "PlayAndWatch\\Pages\\Index.cshtml",
@@ -279,7 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Pages\\Movies\\Index.cshtml",
               "RelativeDocumentMoniker": "PlayAndWatch\\Pages\\Movies\\Index.cshtml",
@@ -291,7 +359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Pages\\Auth\\Register.cshtml",
               "RelativeDocumentMoniker": "PlayAndWatch\\Pages\\Auth\\Register.cshtml",
@@ -303,7 +371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Pages\\Tasks\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "PlayAndWatch\\Pages\\Tasks\\Index.cshtml.cs",
@@ -315,7 +383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "PlayAndWatch\\ApplicationDbContext.cs",
@@ -327,7 +395,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Pages\\Serials\\Index.cshtml",
               "RelativeDocumentMoniker": "PlayAndWatch\\Pages\\Serials\\Index.cshtml",
@@ -339,7 +407,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Pages\\Serials\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "PlayAndWatch\\Pages\\Serials\\Index.cshtml.cs",
@@ -351,7 +419,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Pages\\Books\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "PlayAndWatch\\Pages\\Books\\Index.cshtml.cs",
@@ -363,7 +431,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Pages\\Games\\Index.cshtml",
               "RelativeDocumentMoniker": "PlayAndWatch\\Pages\\Games\\Index.cshtml",
@@ -375,7 +443,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "Test.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Pages\\Test.cshtml.cs",
               "RelativeDocumentMoniker": "PlayAndWatch\\Pages\\Test.cshtml.cs",
@@ -387,7 +455,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Pages\\Books\\Index.cshtml",
               "RelativeDocumentMoniker": "PlayAndWatch\\Pages\\Books\\Index.cshtml",
@@ -399,7 +467,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "Test.cshtml",
               "DocumentMoniker": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Pages\\Test.cshtml",
               "RelativeDocumentMoniker": "PlayAndWatch\\Pages\\Test.cshtml",
@@ -411,7 +479,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 30,
               "Title": "PlayAndWatch.csproj",
               "DocumentMoniker": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\PlayAndWatch.csproj",
               "RelativeDocumentMoniker": "PlayAndWatch\\PlayAndWatch.csproj",
@@ -423,7 +491,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\appsettings.json",
               "RelativeDocumentMoniker": "PlayAndWatch\\appsettings.json",
@@ -435,7 +503,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Program.cs",
               "RelativeDocumentMoniker": "PlayAndWatch\\Program.cs",
