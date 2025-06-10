@@ -14,7 +14,6 @@ namespace PlayAndWatch.Contollers
             _taskDistributionService = taskDistributionService;
         }
 
-        // Получить текущие задания пользователя
         [HttpGet("user/{userId}")]
         public async Task<IActionResult> GetUserTasks(string userId)
         {
@@ -40,23 +39,19 @@ namespace PlayAndWatch.Contollers
             return Ok(userTasks);
         }
 
-        // Распределить новые задания пользователю
         [HttpPost("assign/{userId}")]
         public async Task<IActionResult> AssignTasks(string userId)
         {
-            // Проверяем существование пользователя
             var userExists = await _context.Users.AnyAsync(u => u.Id == userId);
             if (!userExists)
             {
                 return NotFound("User not found");
             }
 
-            // Получаем текущие задания пользователя
             var currentTasks = await _context.UserTasks
                 .Where(ut => ut.UserId == userId && ut.Status != TaskStatus.Completed)
                 .ToListAsync();
 
-            // Проверяем, не нужно ли обновить существующие задания
             foreach (var userTask in currentTasks)
             {
                 var shouldUpdate = await _taskDistributionService.CheckTaskForUpdate(userTask);
@@ -68,10 +63,8 @@ namespace PlayAndWatch.Contollers
                 }
             }
 
-            // Определяем новые задания для пользователя
             var newTasks = await _taskDistributionService.GetNewTasksForUser(userId);
 
-            // Добавляем новые задания
             foreach (var task in newTasks)
             {
                 var userTask = new UserTask
@@ -90,7 +83,6 @@ namespace PlayAndWatch.Contollers
             return Ok(new { Message = "Tasks assigned successfully", newTasks.Count });
         }
 
-        // Обновить прогресс задания
         [HttpPost("progress/{userTaskId}")]
         public async Task<IActionResult> UpdateTaskProgress(int userTaskId, [FromBody] ProgressUpdateDto progressUpdate)
         {
@@ -105,13 +97,11 @@ namespace PlayAndWatch.Contollers
 
             userTask.Progress += progressUpdate.Increment;
 
-            // Проверяем, выполнено ли задание
             if (userTask.Progress >= userTask.Task.TargetValue)
             {
                 userTask.Status = TaskStatus.Completed;
                 userTask.CompletedDate = DateTime.UtcNow;
 
-                // Начисляем награду
                 var user = await _context.Users.FindAsync(userTask.UserId);
                 user.Points += userTask.Task.Reward;
             }
@@ -126,7 +116,6 @@ namespace PlayAndWatch.Contollers
             });
         }
 
-        // Проверить и разблокировать новые задания
         [HttpPost("check-unlock/{userId}")]
         public async Task<IActionResult> CheckAndUnlockTasks(string userId)
         {

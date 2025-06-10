@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3C863028-E7D2-4492-B7D3-8EE951283C9D}|PlayAndWatch\\PlayAndWatch.csproj|c:\\users\\zisze\\documents\\github\\playandwatch\\playandwatch\\contollers\\taskcontoller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C863028-E7D2-4492-B7D3-8EE951283C9D}|PlayAndWatch\\PlayAndWatch.csproj|solutionrelative:playandwatch\\contollers\\taskcontoller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C863028-E7D2-4492-B7D3-8EE951283C9D}|PlayAndWatch\\PlayAndWatch.csproj|c:\\users\\zisze\\documents\\github\\playandwatch\\playandwatch\\contollers\\recommendationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C863028-E7D2-4492-B7D3-8EE951283C9D}|PlayAndWatch\\PlayAndWatch.csproj|solutionrelative:playandwatch\\contollers\\recommendationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3C863028-E7D2-4492-B7D3-8EE951283C9D}|PlayAndWatch\\PlayAndWatch.csproj|c:\\users\\zisze\\documents\\github\\playandwatch\\playandwatch\\services\\taskdistributionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C863028-E7D2-4492-B7D3-8EE951283C9D}|PlayAndWatch\\PlayAndWatch.csproj|solutionrelative:playandwatch\\services\\taskdistributionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3C863028-E7D2-4492-B7D3-8EE951283C9D}|PlayAndWatch\\PlayAndWatch.csproj|c:\\users\\zisze\\documents\\github\\playandwatch\\playandwatch\\contollers\\taskcontoller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C863028-E7D2-4492-B7D3-8EE951283C9D}|PlayAndWatch\\PlayAndWatch.csproj|solutionrelative:playandwatch\\contollers\\taskcontoller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3C863028-E7D2-4492-B7D3-8EE951283C9D}|PlayAndWatch\\PlayAndWatch.csproj|c:\\users\\zisze\\documents\\github\\playandwatch\\playandwatch\\services\\recommendationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C863028-E7D2-4492-B7D3-8EE951283C9D}|PlayAndWatch\\PlayAndWatch.csproj|solutionrelative:playandwatch\\services\\recommendationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C863028-E7D2-4492-B7D3-8EE951283C9D}|PlayAndWatch\\PlayAndWatch.csproj|c:\\users\\zisze\\documents\\github\\playandwatch\\playandwatch\\contollers\\recommendationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C863028-E7D2-4492-B7D3-8EE951283C9D}|PlayAndWatch\\PlayAndWatch.csproj|solutionrelative:playandwatch\\contollers\\recommendationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3C863028-E7D2-4492-B7D3-8EE951283C9D}|PlayAndWatch\\PlayAndWatch.csproj|c:\\users\\zisze\\documents\\github\\playandwatch\\playandwatch\\models\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -134,56 +134,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "RecommendationService.cs",
               "DocumentMoniker": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Services\\RecommendationService.cs",
               "RelativeDocumentMoniker": "PlayAndWatch\\Services\\RecommendationService.cs",
               "ToolTip": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Services\\RecommendationService.cs",
               "RelativeToolTip": "PlayAndWatch\\Services\\RecommendationService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAowFkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-10T19:51:29.136Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "RecommendationsController.cs",
               "DocumentMoniker": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Contollers\\RecommendationsController.cs",
               "RelativeDocumentMoniker": "PlayAndWatch\\Contollers\\RecommendationsController.cs",
               "ToolTip": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Contollers\\RecommendationsController.cs",
               "RelativeToolTip": "PlayAndWatch\\Contollers\\RecommendationsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKwAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-10T19:50:37.956Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "TaskDistributionService.cs",
               "DocumentMoniker": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Services\\TaskDistributionService.cs",
               "RelativeDocumentMoniker": "PlayAndWatch\\Services\\TaskDistributionService.cs",
               "ToolTip": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Services\\TaskDistributionService.cs",
               "RelativeToolTip": "PlayAndWatch\\Services\\TaskDistributionService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "ViewState": "AQIAADsAAAAAAAAAAAAIwA4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-10T19:48:35.138Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TaskContoller.cs",
               "DocumentMoniker": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Contollers\\TaskContoller.cs",
               "RelativeDocumentMoniker": "PlayAndWatch\\Contollers\\TaskContoller.cs",
               "ToolTip": "C:\\Users\\zisze\\Documents\\GitHub\\PlayAndWatch\\PlayAndWatch\\Contollers\\TaskContoller.cs",
               "RelativeToolTip": "PlayAndWatch\\Contollers\\TaskContoller.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAMoAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-10T19:45:33.33Z",
               "EditorCaption": ""
@@ -210,8 +210,7 @@
               "RelativeToolTip": "PlayAndWatch\\Models\\Rating.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T17:14:34.913Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T17:14:34.913Z"
             },
             {
               "$type": "Document",
